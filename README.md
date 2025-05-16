@@ -27,6 +27,18 @@ npm run dev
 
 Go to http://localhost:5173 to view the app.
 ```
+## Project Structure
+```
+src/
+│
+├── components/         # Reusable UI components (LoginButton, LogoutButton, etc.)
+├── context/            # React Context for managing tasks
+├── pages/              # Main pages (Home, Dashboard, CreateTask, EditTask, Profile)
+├── App.tsx             # Root component and routes
+├── main.tsx            # React entry point
+├── App.css             # Global styling
+└── auth/               # Auth0 callback handling
+```
 
 ## Technologies Used
 
