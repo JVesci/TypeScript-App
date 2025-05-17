@@ -17,7 +17,7 @@ A modern task management web app built with **React**, **TypeScript**, **React R
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/task-manager-app.git
+git clone https://github.com/JVesci/TypeScript-App.git
 cd task-manager-app
 
 npm install react react-dom react-router-dom @auth0/auth0-react bootstrap react-bootstrap uuid
