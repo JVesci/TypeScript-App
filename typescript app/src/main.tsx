@@ -4,9 +4,10 @@ import { BrowserRouter, useNavigate } from "react-router-dom";
 import { Auth0Provider } from "@auth0/auth0-react";
 import App from "./App";
 
-const domain = "dev-5dsxdp5ubhwus0bc.us.auth0.com";
-const clientId = "UYVJA4u15SdamFmrCkeeEX2zv6lcxTGC";
-const redirectUri = "http://localhost:5173/callback"; // make sure it matches your app
+// Load from environment variables for security and flexibility
+const domain = import.meta.env.VITE_AUTH0_DOMAIN;
+const clientId = import.meta.env.VITE_AUTH0_CLIENT_ID;
+const redirectUri = import.meta.env.VITE_AUTH0_REDIRECT_URI;
 
 const Auth0ProviderWithNavigate: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const navigate = useNavigate();
