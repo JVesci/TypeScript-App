@@ -15,17 +15,14 @@ A modern task management web app built with **React**, **TypeScript**, **React R
 ## Installation
 
 ### Clone the Repository
+git clone https://github.com/JVesci/TypeScript-App.git
 
 ```bash
-git clone https://github.com/JVesci/TypeScript-App.git
-cd task-manager-app
+cd typescript app
 
-npm install react react-dom react-router-dom @auth0/auth0-react bootstrap react-bootstrap uuid
-npm install --save-dev typescript @types/react @types/react-dom @types/react-router-dom @types/uuid
+npm install
 
 npm run dev
-
-Go to http://localhost:5173 to view the app.
 ```
 ## Project Structure
 ```
